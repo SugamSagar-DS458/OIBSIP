@@ -33,8 +33,6 @@ Both **Logistic Regression** and **K-Nearest Neighbors** achieved **100% accurac
 
 [Short view of my Project](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screen%20Recording%202026-08-26%20220412.mp4)
 
-[My Work]()
-
 ## Project Structure
 
 ```
