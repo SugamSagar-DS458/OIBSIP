@@ -27,6 +27,14 @@ The [Iris dataset](https://scikit-learn.org/stable/datasets/toy_dataset.html#iri
 
 Both **Logistic Regression** and **K-Nearest Neighbors** achieved **100% accuracy** on the held-out test set, with perfect classification reports and confusion matrices (no misclassifications).
 
+## Overview of my Project
+
+[Screenshot of my Project](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screenshot%202026-08-26%20220144.png)
+
+[Short view of my Project](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screen%20Recording%202026-08-26%20220412.mp4)
+
+[My Work]()
+
 ## Project Structure
 
 ```
@@ -73,3 +81,4 @@ pip install pandas scikit-learn seaborn matplotlib
 | Train/Test Split | 80/20 split with `random_state=42` for reproducibility |
 | Modeling | Logistic Regression and KNN (k=5) classifiers |
 | Evaluation | Accuracy, classification report, and confusion matrix heatmaps |
+
