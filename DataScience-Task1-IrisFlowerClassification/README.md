@@ -1,58 +1,75 @@
-Iris Dataset Exploratory Data Analysis (EDA)
-Welcome to the Iris Dataset EDA project! This repository contains a Jupyter Notebook that performs foundational Exploratory Data Analysis on the classic Iris dataset. It is a great starting point for understanding data manipulation, inspection, and visualization in Python.
+# Iris Species Classification 🌸
 
-📊 Overview
-This project walks through the essential steps of analyzing a new dataset. The notebook demonstrates how to load data, inspect its structure, check for missing values, generate statistical summaries, and visualize the features using popular Python data science libraries.  
-IPYNB
+Exploratory data analysis and machine learning classification on the classic **Iris dataset**, built in a Jupyter notebook (`Task_1.ipynb`).
 
-🛠️ Features Included
-The analysis in this repository covers the following key steps:
+## Overview
 
-Data Loading: Imports the Iris dataset directly from sklearn.datasets and structures it into a Pandas DataFrame for easy manipulation.  
-IPYNB
+This project walks through a complete, lightweight ML workflow:
 
-Shape & Structure: Inspects the dataset's dimensions, confirming a shape of 150 rows and 5 columns.  
-IPYNB
+1. **Load & inspect** the Iris dataset (shape, dtypes, nulls, descriptive stats)
+2. **Exploratory Data Analysis (EDA)** — pairplots and box plots to visualize feature distributions across species
+3. **Feature importance** analysis using a `RandomForestClassifier`
+4. **Model training & evaluation** with two classifiers:
+   - Logistic Regression
+   - K-Nearest Neighbors (KNN)
+5. **Evaluation** via accuracy score, classification report, and confusion matrix for each model
 
-Data Typing: Evaluates the data types for sepal and petal measurements (float64) and the target variable (int64).  
-IPYNB
+## Dataset
 
-Data Cleansing Check: Verifies the presence of missing or null values (the dataset is clean with 0 nulls across all columns).  
-IPYNB
+The [Iris dataset](https://scikit-learn.org/stable/datasets/toy_dataset.html#iris-plants-dataset) is loaded directly from `sklearn.datasets`. It contains 150 samples across 3 species (*setosa*, *versicolor*, *virginica*) with 4 numeric features:
 
-Descriptive Statistics: Generates a comprehensive statistical summary (mean, standard deviation, min, max, and quartiles) for all numerical features.  
-IPYNB
+- Sepal length (cm)
+- Sepal width (cm)
+- Petal length (cm)
+- Petal width (cm)
 
-Data Visualization: Utilizes Seaborn and Matplotlib to visually explore the dataset and understand the relationships between different floral features.  
-IPYNB
+## Results
 
-💻 Tech Stack & Libraries
-To run the notebook successfully, you will need Python installed along with the following libraries:  
-IPYNB
+Both **Logistic Regression** and **K-Nearest Neighbors** achieved **100% accuracy** on the held-out test set, with perfect classification reports and confusion matrices (no misclassifications).
 
-pandas
+## Project Structure
 
-scikit-learn
+```
+.
+├── Task_1.ipynb     # Main notebook: EDA, feature importance, model training & evaluation
+└── README.md
+```
 
-seaborn
+## Requirements
 
-matplotlib
+- Python 3.8+
+- pandas
+- scikit-learn
+- seaborn
+- matplotlib
 
-🚀 Getting Started
-Follow these steps to run the analysis on your local machine:
+Install dependencies:
 
-Clone the repository:
+```bash
+pip install pandas scikit-learn seaborn matplotlib
+```
 
-Bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-Install the required dependencies:
-(It is recommended to use a virtual environment)
+## Usage
 
-Bash
-pip install pandas scikit-learn seaborn matplotlib jupyter
-Run the Jupyter Notebook:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo>.git
+   cd <your-repo>
+   ```
+2. Launch Jupyter:
+   ```bash
+   jupyter notebook Task_1.ipynb
+   ```
+3. Run all cells from top to bottom.
 
-Bash
-jupyter notebook
-Open the notebook file in your browser and run the cells sequentially to reproduce the analysis and visualizations.
+## Workflow Details
+
+| Step | Description |
+|------|-------------|
+| Data Loading | Loads Iris data into a pandas DataFrame with feature + target columns |
+| EDA | Checks shape, dtypes, nulls, and summary statistics |
+| Visualization | Pairplot (by species) and box plots per feature |
+| Feature Importance | Random Forest used to rank feature importance |
+| Train/Test Split | 80/20 split with `random_state=42` for reproducibility |
+| Modeling | Logistic Regression and KNN (k=5) classifiers |
+| Evaluation | Accuracy, classification report, and confusion matrix heatmaps |
