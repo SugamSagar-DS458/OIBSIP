@@ -14,7 +14,7 @@ This project builds and compares multiple regression models to estimate a used c
 
 ## 🎥 Demo
 
-[Add a short recording of my work](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screen%20Recording%202026-08-27%20151112.mp4)
+[Short recording of my work](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screen%20Recording%202026-08-27%20151112.mp4)
 
 
 ## 📊 Dataset
