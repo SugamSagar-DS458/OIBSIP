@@ -14,7 +14,32 @@ This project builds and compares multiple regression models to estimate a used c
 
 ## 🎥 Demo
 
-[Short video of walkthrough my project](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screen%20Recording%202026-08-27%20151112.mp4) 
+Add a short screen recording of the notebook running end-to-end, or of any plots/interactive output. Save your file in a `demo/` folder in the repo and embed it below.
+
+**Option A — GitHub-hosted video (recommended):**
+Upload the video by dragging it into a GitHub issue/PR/README editor, copy the generated link, and paste it here:
+
+```md
+https://github.com/<your-username>/<your-repo>/assets/<id>/<video-id>.mp4
+```
+
+**Option B — Embed with HTML (for larger control over size):**
+
+```html
+<video src="demo/project-demo.mp4" controls width="700">
+  Your browser does not support the video tag.
+</video>
+```
+
+**Option C — GIF preview (auto-plays, works everywhere):**
+
+```md
+![Project Demo](demo/project-demo.gif)
+```
+
+> 💡 Tip: Use [ScreenToGif](https://www.screentogif.com/) (Windows) or [Kap](https://getkap.co/) (Mac) to record a short GIF/MP4 of the notebook running.
+
+---
 
 ## 📊 Dataset
 
@@ -32,7 +57,25 @@ The dataset used is `car data.csv`, containing details of used cars such as:
 | `Transmission` | Manual / Automatic |
 | `Owner` | Number of previous owners |
 
-## Steps in detail:
+> 📁 Place `car data.csv` inside a `data/` folder and update the file path in the notebook before running it (the original notebook uses a local Windows path — see [Usage](#-usage) below).
+
+---
+
+## 🔄 Project Workflow
+
+```mermaid
+flowchart LR
+    A[Load Dataset] --> B[Data Cleaning]
+    B --> C[Feature Engineering]
+    C --> D[Exploratory Data Analysis]
+    D --> E[One-Hot Encoding]
+    E --> F[Train/Test Split]
+    F --> G[Model Training]
+    G --> H[Model Evaluation]
+    H --> I[Feature Importance]
+```
+
+**Steps in detail:**
 
 1. **Data Cleaning** — Checked for missing values and duplicate rows; removed duplicates.
 2. **Feature Engineering**
@@ -50,6 +93,8 @@ The dataset used is `car data.csv`, containing details of used cars such as:
 7. **Evaluation** — Compared models using MAE, RMSE, and R² Score.
 8. **Feature Importance** — Visualized top 20 most important features from the Gradient Boosting model.
 
+---
+
 ## 🛠 Tech Stack
 
 - **Language:** Python 3.9+
@@ -58,6 +103,8 @@ The dataset used is `car data.csv`, containing details of used cars such as:
   - `pandas`, `numpy` — data manipulation
   - `matplotlib`, `seaborn` — visualization
   - `scikit-learn` — modeling & evaluation
+
+---
 
 ## ⚙️ Installation
 
@@ -80,6 +127,16 @@ source venv/bin/activate      # On Windows: venv\Scripts\activate
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ```
+
+Or, if you add a `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+<details>
+<summary>📄 Suggested <code>requirements.txt</code></summary>
+
 ```
 pandas>=1.5.0
 numpy>=1.23.0
@@ -88,6 +145,29 @@ seaborn>=0.12.0
 scikit-learn>=1.2.0
 jupyter>=1.0.0
 ```
+
+</details>
+
+---
+
+## ▶️ Usage
+
+1. Place the dataset (`car data.csv`) inside a `data/` folder in the project root.
+2. Open the notebook:
+
+```bash
+jupyter notebook Task3.ipynb
+```
+
+3. Update the dataset path in the first cell to point to your local file:
+
+```python
+df = pd.read_csv("data/car data.csv")
+```
+
+4. Run all cells (**Cell → Run All**) to reproduce the full pipeline — from data cleaning through model evaluation.
+
+---
 
 ## 📈 Results
 
@@ -107,24 +187,44 @@ The three models were compared using MAE, RMSE, and R² Score. Example results t
 
 ## 🖼 Screenshots
 
+Add screenshots of your notebook outputs/plots here. Save images in a `screenshots/` folder and reference them like this:
+
+```md
 ### Selling Price Distribution
-[Selling Price Distribution](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155415.png)
+![Selling Price Distribution](screenshots/price_distribution.png)
 
 ### Price vs Fuel Type
-[Price vs Fuel Type](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155441.png)
+![Price vs Fuel Type](screenshots/price_vs_fueltype.png)
 
 ### Price vs Car Age
-[Price vs Car Age](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155455.png)
+![Price vs Car Age](screenshots/price_vs_age.png)
 
 ### Correlation Heatmap
-[Correlation Heatmap](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155751.png)
+![Correlation Heatmap](screenshots/correlation_heatmap.png)
+
+### Model Evaluation Comparison
+![Model Comparison](screenshots/model_comparison.png)
 
 ### Feature Importance
-[Feature Importance](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155917.png)
+![Feature Importance](screenshots/feature_importance.png)
 ```
+
+<details>
+<summary>💡 How to generate these screenshots</summary>
+
+Run the notebook, then right-click each plot output → **Save Image As...**, and save it into a `screenshots/` folder in your repo with the matching filename above. Alternatively, save plots directly from code:
+
+```python
+plt.savefig("screenshots/price_distribution.png", dpi=150, bbox_inches="tight")
+```
+
+</details>
+
+---
 
 ## 📁 Project Structure
 
+```
 ├── data/
 │   └── car data.csv
 ├── screenshots/
@@ -135,17 +235,51 @@ The three models were compared using MAE, RMSE, and R² Score. Example results t
 │   ├── model_comparison.png
 │   └── feature_importance.png
 ├── demo/
-│   └── project-demo.mp4
+│   └── project-demo.mp4 (or .gif)
 ├── Task3.ipynb
+├── requirements.txt
 └── README.md
 ```
+
+---
+
+## 🚀 Future Improvements
+
+- [ ] Hyperparameter tuning (GridSearchCV / RandomizedSearchCV)
+- [ ] Add cross-validation for more robust evaluation
+- [ ] Try additional models (XGBoost, LightGBM, CatBoost)
+- [ ] Build a simple web app (Streamlit/Flask) to serve predictions
+- [ ] Add unit tests and a `requirements.txt`/`environment.yml`
+- [ ] Deploy the best model as an API
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## 📬 Contact
 
 **Your Name**
-- GitHub: [@SugamSagar-DS458](https://github.com/SugamSagar-DS458/)
-- LinkedIn: [sugamsagar-ai](https://www.linkedin.com/in/sugamsagar-ai/)
+- GitHub: [@your-username](https://github.com/your-username)
+- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+- Email: your.email@example.com
 
 ---
 
 ⭐ If you found this project helpful, consider giving it a star on GitHub!
+
