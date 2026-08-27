@@ -119,33 +119,20 @@ The three models were compared using MAE, RMSE, and R² Score. Example results t
 
 ```md
 ### Selling Price Distribution
-![Selling Price Distribution](screenshots/price_distribution.png)
+![Selling Price Distribution](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155415.png)
 
 ### Price vs Fuel Type
-![Price vs Fuel Type](screenshots/price_vs_fueltype.png)
+![Price vs Fuel Type](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155441.png)
 
 ### Price vs Car Age
-![Price vs Car Age](screenshots/price_vs_age.png)
+![Price vs Car Age](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155455.png)
 
 ### Correlation Heatmap
-![Correlation Heatmap](screenshots/correlation_heatmap.png)
+![Correlation Heatmap](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155751.png)
 
 ### Feature Importance
-![Feature Importance](screenshots/feature_importance.png)
+![Feature Importance](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155917.png)
 ```
-
-<details>
-<summary>💡 How to generate these screenshots</summary>
-
-Run the notebook, then right-click each plot output → **Save Image As...**, and save it into a `screenshots/` folder in your repo with the matching filename above. Alternatively, save plots directly from code:
-
-```python
-plt.savefig("screenshots/price_distribution.png", dpi=150, bbox_inches="tight")
-```
-
-</details>
-
----
 
 ## 📁 Project Structure
 
