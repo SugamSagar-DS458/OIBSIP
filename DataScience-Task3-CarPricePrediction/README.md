@@ -16,9 +16,7 @@ This project builds and compares multiple regression models to estimate a used c
 
 ## 🎥 Demo
 
-[Screenshot of my work]()
-
-[Short video of walkthrough my project]() 
+[Short video of walkthrough my project](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screen%20Recording%202026-08-27%20151112.mp4) 
 
 ## 📊 Dataset
 
@@ -135,7 +133,6 @@ The three models were compared using MAE, RMSE, and R² Score. Example results t
 
 ## 📁 Project Structure
 
-```
 ├── data/
 │   └── car data.csv
 ├── screenshots/
@@ -151,13 +148,11 @@ The three models were compared using MAE, RMSE, and R² Score. Example results t
 └── README.md
 ```
 
----
-
 ## 📬 Contact
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+- GitHub: [@SugamSagar-DS458](https://github.com/SugamSagar-DS458/)
+- LinkedIn: [sugamsagar-ai](https://www.linkedin.com/in/sugamsagar-ai/)
 
 ---
 
