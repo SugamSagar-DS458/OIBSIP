@@ -1,8 +1,8 @@
 # Unemployment Analysis in India 📊
 
-Exploratory data analysis of unemployment trends in India, built as part of the Oasis Internship Data Science track (Task 2). The notebook cleans the raw dataset, then explores regional, monthly, and time-series unemployment patterns — including a direct comparison of key labor indicators before and after the COVID-19 pandemic.
-
 ## Overview
+
+Exploratory data analysis of unemployment trends in India, built as part of the Oasis Internship Data Science track (Task 2). The notebook cleans the raw dataset, then explores regional, monthly, and time-series unemployment patterns — including a direct comparison of key labor indicators before and after the COVID-19 pandemic.
 
 The `Task2.ipynb` notebook walks through a complete mini-EDA workflow:
 
@@ -23,7 +23,7 @@ The notebook expects a CSV named `Unemployment in India.csv` with (at least) the
 | `Estimated Employed` | Number of people employed |
 | `Estimated Labour Participation Rate (%)` | Labour participation rate |
 
-> The dataset is a commonly used public dataset from Kaggle's "Unemployment in India" collection.
+---
 
 ## Key Analyses & Visualizations
 
@@ -40,16 +40,16 @@ The notebook expects a CSV named `Unemployment in India.csv` with (at least) the
 [Average unemploymenmt rate by region](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20164711.png)
 
 ### Average unemploymenmt rate by month
-![Average unemploymenmt rate by month](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20164728.png)
+[Average unemploymenmt rate by month](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20164728.png)
 
 ### Unemploymenmt rate for top 3 region
-![Unemploymenmt rate for top 3 region](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20164741.png)
+[Unemploymenmt rate for top 3 region](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20164741.png)
 
 ### Highest average unemploymenmt rate of top 10 region
-![Highest average unemploymenmt rate of top 10 region](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20164755.png)
+[Highest average unemploymenmt rate of top 10 region](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20164755.png)
 
 ### Correlation Heatmap of Key Economic Indicators
-![Correlation Heatmap of Key Economic Indicators](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20164809.png)
+[Correlation Heatmap of Key Economic Indicators](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20164809.png)
 
 ## Demo
 
