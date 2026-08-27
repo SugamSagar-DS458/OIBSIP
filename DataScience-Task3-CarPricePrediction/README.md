@@ -14,32 +14,8 @@ This project builds and compares multiple regression models to estimate a used c
 
 ## 🎥 Demo
 
-Add a short screen recording of the notebook running end-to-end, or of any plots/interactive output. Save your file in a `demo/` folder in the repo and embed it below.
+[Add a short recording of my work](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screen%20Recording%202026-08-27%20151112.mp4)
 
-**Option A — GitHub-hosted video (recommended):**
-Upload the video by dragging it into a GitHub issue/PR/README editor, copy the generated link, and paste it here:
-
-```md
-https://github.com/<your-username>/<your-repo>/assets/<id>/<video-id>.mp4
-```
-
-**Option B — Embed with HTML (for larger control over size):**
-
-```html
-<video src="demo/project-demo.mp4" controls width="700">
-  Your browser does not support the video tag.
-</video>
-```
-
-**Option C — GIF preview (auto-plays, works everywhere):**
-
-```md
-![Project Demo](demo/project-demo.gif)
-```
-
-> 💡 Tip: Use [ScreenToGif](https://www.screentogif.com/) (Windows) or [Kap](https://getkap.co/) (Mac) to record a short GIF/MP4 of the notebook running.
-
----
 
 ## 📊 Dataset
 
@@ -56,8 +32,6 @@ The dataset used is `car data.csv`, containing details of used cars such as:
 | `Selling_type` | Dealer / Individual |
 | `Transmission` | Manual / Automatic |
 | `Owner` | Number of previous owners |
-
-> 📁 Place `car data.csv` inside a `data/` folder and update the file path in the notebook before running it (the original notebook uses a local Windows path — see [Usage](#-usage) below).
 
 ---
 
