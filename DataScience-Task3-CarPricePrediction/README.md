@@ -194,3 +194,6 @@ The three models were compared using MAE, RMSE, and R² Score. Example results t
 - [LinkedIn-sugamsagar-ai](https://www.linkedin.com/in/sugamsagar-ai/)
 
 ```
+## Acknowledgements
+
+Task completed as part of the **Oasis Infobyte Data Science Internship**.
