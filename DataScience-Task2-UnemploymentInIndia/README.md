@@ -85,7 +85,7 @@ jupyter notebook Task2.ipynb
 .
 ├── Task2.ipynb    # Main analysis notebook
 ├── README.md      # Project documentation
-└── assets/        # Screenshots, and demo video used in this README
+ # Screenshots, and demo video used in this README
 ```
 
 ## Findings
