@@ -190,9 +190,8 @@ The three models were compared using MAE, RMSE, and R² Score. Example results t
 ## 📬 Contact
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
+- GitHub: [@SugamSagar-DS458](https://github.com/SugamSagar-DS458)
+- LinkedIn: [sugamsagar-ai](https://www.linkedin.com/in/sugamsagar-ai/)
 
 ---
 
