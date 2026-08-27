@@ -32,7 +32,7 @@ The dataset used is `car data.csv`, containing details of used cars such as:
 | `Transmission` | Manual / Automatic |
 | `Owner` | Number of previous owners |
 
-**Steps in detail:**
+## Steps in detail:
 
 1. **Data Cleaning** — Checked for missing values and duplicate rows; removed duplicates.
 2. **Feature Engineering**
@@ -50,8 +50,6 @@ The dataset used is `car data.csv`, containing details of used cars such as:
 7. **Evaluation** — Compared models using MAE, RMSE, and R² Score.
 8. **Feature Importance** — Visualized top 20 most important features from the Gradient Boosting model.
 
----
-
 ## 🛠 Tech Stack
 
 - **Language:** Python 3.9+
@@ -60,8 +58,6 @@ The dataset used is `car data.csv`, containing details of used cars such as:
   - `pandas`, `numpy` — data manipulation
   - `matplotlib`, `seaborn` — visualization
   - `scikit-learn` — modeling & evaluation
-
----
 
 ## ⚙️ Installation
 
