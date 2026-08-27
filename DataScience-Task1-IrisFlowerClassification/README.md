@@ -93,3 +93,6 @@ pip install pandas scikit-learn seaborn matplotlib
 | Modeling | Logistic Regression and KNN (k=5) classifiers |
 | Evaluation | Accuracy, classification report, and confusion matrix heatmaps |
 
+## Acknowledgements
+
+Task completed as part of the **Oasis Infobyte Data Science Internship**.
