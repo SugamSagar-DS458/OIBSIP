@@ -36,7 +36,20 @@ The notebook expects a CSV named `Unemployment in India.csv` with (at least) the
 
 ## Screenshots
 
-[Sample of my work](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20115623.png)
+### Average unemploymenmt rate by region
+[Average unemploymenmt rate by region]()
+
+### Average unemploymenmt rate by month
+![Average unemploymenmt rate by month]()
+
+### Unemploymenmt rate for top 3 region
+![Unemploymenmt rate for top 3 region]()
+
+### Highest average unemploymenmt rate of top 10 region
+![Highest average unemploymenmt rate of top 10 region]()
+
+### Correlation Heatmap of Key Economic Indicators
+![Correlation Heatmap of Key Economic Indicators]()
 
 ## Demo
 
