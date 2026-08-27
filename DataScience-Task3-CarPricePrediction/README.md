@@ -117,8 +117,6 @@ The three models were compared using MAE, RMSE, and R² Score. Example results t
 
 ## 🖼 Screenshots
 
-Add screenshots of your notebook outputs/plots here. Save images in a `screenshots/` folder and reference them like this:
-
 ```md
 ### Selling Price Distribution
 ![Selling Price Distribution](screenshots/price_distribution.png)
@@ -131,9 +129,6 @@ Add screenshots of your notebook outputs/plots here. Save images in a `screensho
 
 ### Correlation Heatmap
 ![Correlation Heatmap](screenshots/correlation_heatmap.png)
-
-### Model Evaluation Comparison
-![Model Comparison](screenshots/model_comparison.png)
 
 ### Feature Importance
 ![Feature Importance](screenshots/feature_importance.png)
@@ -165,23 +160,10 @@ plt.savefig("screenshots/price_distribution.png", dpi=150, bbox_inches="tight")
 │   ├── model_comparison.png
 │   └── feature_importance.png
 ├── demo/
-│   └── project-demo.mp4 (or .gif)
+│   └── project-demo.mp4
 ├── Task3.ipynb
-├── requirements.txt
 └── README.md
 ```
-
----
-
-## 🚀 Future Improvements
-
-- [ ] Hyperparameter tuning (GridSearchCV / RandomizedSearchCV)
-- [ ] Add cross-validation for more robust evaluation
-- [ ] Try additional models (XGBoost, LightGBM, CatBoost)
-- [ ] Build a simple web app (Streamlit/Flask) to serve predictions
-- [ ] Add unit tests and a `requirements.txt`/`environment.yml`
-- [ ] Deploy the best model as an API
-
 ---
 
 ## 🤝 Contributing
@@ -196,18 +178,11 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 📬 Contact
 
 **Your Name**
 - GitHub: [@your-username](https://github.com/your-username)
 - LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
-- Email: your.email@example.com
 
 ---
 
