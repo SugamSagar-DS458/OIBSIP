@@ -27,11 +27,24 @@ The [Iris dataset](https://scikit-learn.org/stable/datasets/toy_dataset.html#iri
 
 Both **Logistic Regression** and **K-Nearest Neighbors** achieved **100% accuracy** on the held-out test set, with perfect classification reports and confusion matrices (no misclassifications).
 
-## Overview of my Project
+## Screenshots/Demo Video
 
-[Screenshot of my Project](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screenshot%202026-08-26%20220144.png)
+### Pairplot of Iris Features by Species
+[Pairplot of Iris Features by Specie](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screenshot%202026-08-27%20170246.png)
 
-[Short view of my Project](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screen%20Recording%202026-08-26%20220412.mp4)
+### Box Plot of feature by Species
+[Box Plot of feature by Species](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screenshot%202026-08-27%20170315.png)
+
+### Feature Importances for Iris Species Classification
+[Feature Importances for Iris Species Classification](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screenshot%202026-08-27%20170338.png)
+
+### Confusion Matrix - Logistic Regression
+[Confusion Matrix - Logistic Regression](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screenshot%202026-08-27%20170347.png)
+
+### Confusion Matrix - K-Nearest Neighbors
+[Confusion Matrix - K-Nearest Neighbors](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screenshot%202026-08-27%20170356.png)
+
+[Short demo video of my Project](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task1-IrisFlowerClassification/Screen%20Recording%202026-08-26%20220412.mp4)
 
 ## Project Structure
 
