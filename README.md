@@ -15,7 +15,7 @@ This repository contains the projects and tasks I completed during my Data Scien
 * **Objective:** [Analyze the unemployment rate across different regions during the COVID-19 pandemic.]
 * **Techniques Used:** [Data Cleaning, Time Series Visualization, Plotly]
 * **Libraries:** `pandas`, `seaborn`, `plotly`
-* [Link to Notebook](./Task_2_Folder)
+* [Link to Notebook](https://github.com/SugamSagar-DS458/OIBSIP/tree/main/DataScience-Task2-UnemploymentInIndia)
 
 ### Task 3: [Car Price Prediction with Machine Learning]
 * **Objective:** [Build a regression model to predict the selling price of used cars based on various features.]
