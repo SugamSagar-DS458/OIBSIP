@@ -168,7 +168,7 @@ The three models were compared using MAE, RMSE, and R² Score. Example results t
 ![Feature Importance](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155917.png)
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── data/
