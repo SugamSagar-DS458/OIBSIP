@@ -36,31 +36,11 @@ The notebook expects a CSV named `Unemployment in India.csv` with (at least) the
 
 ## Screenshots
 
-<p align="center">
-  <img src="assets/screenshot-1.png" alt="Region-wise unemployment rate bar chart" width="700"/>
-</p>
-
-<p align="center">
-  <img src="assets/screenshot-2.png" alt="Correlation heatmap" width="700"/>
-</p>
-
-> Add your screenshot images to an `assets/` folder in the repo root and update the file names/paths above to match.
+[Sample of my work](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screenshot%202026-08-27%20115623.png)
 
 ## Demo
 
-<p align="center">
-  <img src="assets/demo.gif" alt="Notebook walkthrough demo" width="700"/>
-</p>
-
-GitHub does not natively play `.mp4` files inline in a README, so for video demos either:
-
-- Convert the clip to a `.gif` (e.g. using [ezgif.com](https://ezgif.com) or `ffmpeg`) and embed it like the image above, **or**
-- Upload the `.mp4` directly by dragging it into a GitHub issue/PR comment or the repo's file editor — GitHub will host it and give you a link you can paste here, **or**
-- Host the video externally (YouTube, Loom, etc.) and link a thumbnail:
-
-```markdown
-[![Watch the demo](assets/video-thumbnail.png)](https://your-video-link-here.com)
-```
+[Short video of walkthrough my project](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task2-UnemploymentInIndia/Screen%20Recording%202026-08-27%20115710.mp4)
 
 ## Requirements
 
@@ -92,7 +72,7 @@ jupyter notebook Task2.ipynb
 .
 ├── Task2.ipynb    # Main analysis notebook
 ├── README.md      # Project documentation
-└── assets/        # Screenshots, GIFs, and demo media used in this README
+└── assets/        # Screenshots, and demo video used in this README
 ```
 
 ## Findings
