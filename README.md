@@ -9,7 +9,7 @@ This repository contains the projects and tasks I completed during my Data Scien
 * **Objective:** [ Train a machine learning model to classify iris flowers into three species based on their measurements.]
 * **Techniques Used:** [Exploratory Data Analysis, Logistic Regression, Decision Trees]
 * **Libraries:** `pandas`, `matplotlib`, `scikit-learn`
-* [Link to Notebook](./Task_1_Folder)
+* [Link to Notebook](https://github.com/SugamSagar-DS458/OIBSIP/tree/main/DataScience-Task1-IrisFlowerClassification)
 
 ### Task 2: [Unemployment Analysis with Python]
 * **Objective:** [Analyze the unemployment rate across different regions during the COVID-19 pandemic.]
