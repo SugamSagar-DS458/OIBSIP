@@ -117,7 +117,6 @@ The three models were compared using MAE, RMSE, and R² Score. Example results t
 
 ## 🖼 Screenshots
 
-```md
 ### Selling Price Distribution
 [Selling Price Distribution](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screenshot%202026-08-27%20155415.png)
 
