@@ -12,8 +12,6 @@ This project builds and compares multiple regression models to estimate a used c
 - Training & evaluating **Linear Regression**, **Random Forest Regressor**, and **Gradient Boosting Regressor**
 - Feature importance analysis
 
----
-
 ## 🎥 Demo
 
 [Short video of walkthrough my project](https://github.com/SugamSagar-DS458/OIBSIP/blob/main/DataScience-Task3-CarPricePrediction/Screen%20Recording%202026-08-27%20151112.mp4) 
@@ -33,8 +31,6 @@ The dataset used is `car data.csv`, containing details of used cars such as:
 | `Selling_type` | Dealer / Individual |
 | `Transmission` | Manual / Automatic |
 | `Owner` | Number of previous owners |
-
----
 
 **Steps in detail:**
 
